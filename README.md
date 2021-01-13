@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Metrics](https://metrics.lecoq.io/my-github-user)
+![Metrics](https://metrics.lecoq.io/wentaiouyang)
