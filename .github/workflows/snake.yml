@@ -1,0 +1,33 @@
+name: Generate GitHub Contribution Snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *'     # 每天定时运行一次（UTC 时间零点，这样国内/澳洲那边可能是不同时间）
+  push:
+    branches:
+      - main 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate snake contribution graph
+        uses: Platane/snk@v3
+        with:
+          github_user_name: wentaiouyang
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      - name: Commit and push generated images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/*
+          git commit -m "Update contribution snake images" || echo "No changes to commit"
+          git push
