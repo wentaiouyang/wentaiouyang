@@ -6,26 +6,6 @@
 
 ---
 
-#### 🚀 About Me  
-- 🔭 Currently working on full-stack web applications using **React**, **Node.js**, and **MongoDB**  
-- 🌱 Learning more about **AWS**, **CI/CD**, and **web performance optimization**  
-- 🎨 Passionate about **photography**, especially **sunrise & urban landscapes**  
-- ☕ Coffee-fueled coder who believes clean code = calm mind  
-
----
-
-#### 🛠️ Tech Stack  
-💡 **Languages & Frameworks:**  
-JavaScript | TypeScript | React | Node.js | Express | Next.js  
-
-🧰 **Tools & Services:**  
-AWS | Firebase | MongoDB | GitHub Actions | Netlify | Vercel  
-
-🎨 **Others:**  
-Figma | Photoshop | Lightroom  
-
----
-
 #### 📈 GitHub Contribution Snake  
 
 <p align="center">
@@ -37,6 +17,12 @@ Figma | Photoshop | Lightroom
 </p>
 
 ---
+
+#### 🚀 About Me  
+- 🔭 Currently working on full-stack web applications using **React**, **Node.js**, and **MongoDB**  
+- 🌱 Learning more about **AWS**, **CI/CD**, and **web performance optimization**  
+- 🎨 Passionate about **photography**, especially **sunrise & urban landscapes**  
+- ☕ Coffee-fueled coder who believes clean code = calm mind  
 
 #### 📫 Connect with Me  
 - GitHub: [@wentaiouyang](https://github.com/wentaiouyang)  
