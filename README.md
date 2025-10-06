@@ -27,8 +27,13 @@ Figma | Photoshop | Lightroom
 ---
 
 #### 📈 GitHub Contribution Snake  
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wentaiouyang/wentaiouyang/output/github-contribution-grid-snake.svg" alt="github contribution grid snake animation">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
+    <img alt="github-snake" src="dist/github-snake.svg" />
+  </picture>
 </p>
 
 ---
